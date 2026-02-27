@@ -70,7 +70,7 @@ def main():
 
         if 'generated_pw' in st.session_state:
             st.divider()
-            st.write("### 💾 Save to Vault")
+            st.write("### 💾 Want To Save The Password")
             site = st.text_input("Website or App Name (e.g., Facebook)").lower()
             user = st.text_input("Username or Email")
             
