@@ -18,7 +18,7 @@ from sqlalchemy.orm import sessionmaker
 
 # --- 1. CLOUD CONNECTION ---
 # Aiven provides 'postgres://', but SQLAlchemy requires 'postgresql://'
-DB_URL = "postgres://avnadmin:AVNS_dO2wiliCQKS2ImgYwrM@ahmedpg-ahmedpostgres.k.aivencloud.com:19739/defaultdb?sslmode=require"
+DB_URL = st.secrets["DB_URL"]
 if DB_URL.startswith("postgres://"):
     DB_URL = DB_URL.replace("postgres://", "postgresql://", 1)
 
