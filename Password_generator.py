@@ -59,7 +59,7 @@ def  generate_password(length):
 #main function to run the program
 def main():
     #hello message
-    print("\n--- Welcome to The Strongest Password Manager 💪🛡️ ---")
+    st.title("🛡️ Strongest Password Manager")
     # the action the user wants to do
     Action = input(f" Type 'G'to generate/Save a password or 'R' to retrieve a password: ").upper()
     #generate password
