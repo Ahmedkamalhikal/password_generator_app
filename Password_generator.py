@@ -7,10 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1HPxrtSFOZFxZZKaU1ZRb33F_fjKqI4Co
 """
 import pandas as pd
-import random as rd
-import string as st
 import sqlalchemy as sa
 import streamlit as st
+import random 
+import string 
 
 from sqlalchemy import create_engine, Column, Integer, String, Text
 from sqlalchemy.ext.declarative import declarative_base
