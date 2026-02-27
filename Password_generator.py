@@ -11,6 +11,7 @@ import pandas as pd
 import random as rd
 import string as st
 import sqlalchemy as sa
+import streamlit as st
 
 from sqlalchemy import create_engine, Column, Integer, String, Text
 from sqlalchemy.ext.declarative import declarative_base
